@@ -1,0 +1,81 @@
+.homeContainer {
+  position: absolute;
+  width: 100%;
+
+  .innerContent {
+    border: 0.5px solid lightgrey;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px auto;
+    max-width: 600px;
+
+    .headline {
+      font-family: "Karla", sans-serif;
+      text-align: center;
+      width: 100%;
+      padding: 10px 0;
+      font-size: 22px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .picAndWelcome {
+      img {
+        display: block;
+        max-width: 250px;
+        margin: 0 auto;
+        width: 80%;
+      }
+
+      h1 {
+        text-align: center;
+        padding: 0 45px;
+      }
+    }
+
+    .welcomeText {
+      line-height: 26px;
+      padding: 10px;
+      border-top: 0.5px solid lightgrey;
+      div {
+        margin-bottom: 5px;
+      }
+    }
+
+    .skillsContainer {
+      padding: 10px;
+      text-align: center;
+      border-top: 0.5px solid lightgrey;
+    }
+
+    .cvContainer {
+      margin-bottom: 10px;
+      padding: 10px;
+      text-align: center;
+      border-top: 0.5px solid lightgrey;
+
+      h2 {
+        margin: 20px 0px;
+      }
+    }
+
+    .contactContainer {
+      padding: 10px;
+      margin-bottom: 10px;
+      text-align: center;
+      border-top: 0.5px solid lightgrey;
+
+      h2 {
+        margin: 20px 0px;
+      }
+    }
+
+    footer {
+      padding: 10px 10px 0 10px;
+      text-align: center;
+      border-top: 0.5px solid lightgrey;
+      color: grey;
+      letter-spacing: 2px;
+    }
+  }
+}

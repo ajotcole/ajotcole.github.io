@@ -1,0 +1,53 @@
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  .emailContainer {
+    text-decoration: none;
+    cursor: pointer;
+    border: 0.5px #fff solid;
+    padding: 10px;
+    border-radius: 15px;
+    transition: border-color 0.3s;
+    min-width: 80px;
+    color: #000;
+
+    &:hover {
+      border-color: lightgrey;
+
+      svg {
+        color: #00a2ed;
+      }
+    }
+
+    svg {
+      color: #000;
+      transition: color 0.3s;
+    }
+  }
+
+  .linkedinContainer {
+    text-decoration: none;
+    cursor: pointer;
+    border: 0.5px #fff solid;
+    padding: 10px;
+    border-radius: 15px;
+    transition: border-color 0.3s;
+    min-width: 80px;
+    color: #000;
+
+    &:hover {
+      border-color: lightgrey;
+
+      svg {
+        color: #0e76a8;
+      }
+    }
+
+    svg {
+      color: #000;
+      transition: color 0.3s;
+    }
+  }
+}
